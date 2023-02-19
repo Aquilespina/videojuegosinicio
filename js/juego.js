@@ -1,4 +1,7 @@
 var vida,ataque, magia, pocion;
+var nombre, textoBienvenida;
+nombre ='Aquiles'
+textoBienvenida = 'Hola '+ nombre,
 
 pocion= 20 
 ataque=10;
@@ -10,6 +13,6 @@ vida=vida-ataque;
 }
 vida= vida+pocion;
 
-
+console.log(textoBienvenida);
 
 console.log(vida);

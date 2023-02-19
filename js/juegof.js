@@ -1,8 +1,14 @@
-var vida=10;
+var vida=100;
 var pocion=20;
 var ataque=10;
 
+function MuestaVida(){
+    console.log(vida);
+}
 function ataqueEnemigo(){
     vida -= ataque;
-    console.log(vida);
+}
+
+function MasVida(){
+    vida +=pocion;
 }
