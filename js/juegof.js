@@ -1,14 +1,17 @@
 var vida=100;
 var pocion=20;
-var ataque=10;
+var potencia;
 
-function MuestaVida(){
-    console.log(vida);
-}
-function ataqueEnemigo(){
-    vida -= ataque;
+
+function ataqueEnemigo(potencia,nombreAtaque ){
+    vida -= potencia;
+
+    console.log("Has sido atacado con; "+nombreAtaque);
+    console.log("vida:"+vida)
+
 }
 
 function MasVida(){
     vida +=pocion;
+    console.log("Vida:"+vida)
 }
